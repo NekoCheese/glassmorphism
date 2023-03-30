@@ -5,15 +5,34 @@
 // base
 @import "base/font";
 @import "base/color";
+@import "base/blur";
+
 // component
 @import "component/btn";
 // layout
 @import "layout/header";
+@import "layout/footer";
+@import "layout/slide";
+
 // animation
 @import "animation/animation";
 // page
 @import "page/index";
 
+* {
+  // outline: 1px solid red;
+}
+
 body {
   background: url(../images/brushed-alum.png), #ffffff;
+  color: $f_d;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  color: $f_blue;
 }

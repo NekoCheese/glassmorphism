@@ -1,0 +1,13 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  a {
+    margin: 5px 0;
+  }
+}
