@@ -1,0 +1,5 @@
+//     霧面   模糊度 角度   上     下
+@mixin glass($blur, $deg, $TOP, $BOTTOM) {
+  background: linear-gradient($deg, $TOP, $BOTTOM);
+  backdrop-filter: $blur;
+}

@@ -5,7 +5,6 @@
 // base
 @import "base/font";
 @import "base/color";
-@import "base/blur";
 
 // component
 @import "component/btn";
@@ -25,7 +24,7 @@
 
 body {
   background: url(../images/brushed-alum.png), #ffffff;
-  color: $f_d;
+  color: $f_b;
 }
 
 a {
