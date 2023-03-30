@@ -1,0 +1,19 @@
+// reset
+@import "base/reset";
+// mixin
+@import "mixin/mixin";
+// base
+@import "base/font";
+@import "base/color";
+// component
+@import "component/btn";
+// layout
+@import "layout/header";
+// animation
+@import "animation/animation";
+// page
+@import "page/index";
+
+body {
+  background: url(../images/brushed-alum.png), #ffffff;
+}
