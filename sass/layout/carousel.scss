@@ -1,0 +1,78 @@
+.carousel-button {
+  cursor: pointer;
+  position: absolute;
+}
+
+.carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 15px;
+
+  button {
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 20px;
+    width: 15px;
+    height: 15px;
+
+    background: $f_w;
+    opacity: 0.8;
+    border: 2px solid $f_w;
+  }
+
+  .active {
+    background: $f_blue;
+  }
+}
+
+// 首頁
+.home_carousel {
+  .carousel-image {
+    margin-top: 40px;
+    width: 100%;
+    display: block;
+  }
+  .carousel-button-left,
+  .carousel-button-right {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carousel-button-left {
+    left: -60px;
+  }
+
+  .carousel-button-right {
+    right: -60px;
+  }
+
+  .carousel-description {
+    @include shadow_m;
+
+    position: absolute;
+    bottom: 5%;
+    max-width: 1200px;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-radius: 10px;
+
+    text-align-last: left;
+    h3 {
+      padding: 30px 60px;
+    }
+
+    h4 {
+      padding: 0 60px;
+    }
+
+    a {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 60px 25px;
+    }
+  }
+}

@@ -5,19 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web</title>
-    <!-- 使用 CDN 引入 Font Awesome 套件 -->
-    <script
-      src="https://kit.fontawesome.com/830780574d.js"
-      crossorigin="anonymous"
-    ></script>
-
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
     <!-- header -->
     <header class="header open">
-  <img class="logo" src="images/logo_L.png" alt="LOGO" />
-  <img class="nav" src="images/nav_icon.png" />
+  <img class="header_logo" src="images/logo_L.png" alt="LOGO" />
+  <img class="header_nav" src="images/nav_icon.png" />
 </header>
 
     <!-- 側邊按鈕 -->
@@ -27,7 +21,67 @@
   <a href="#"><img src="../images/slide_messenger.png" alt="" /></a>
 </div>
 
-    <div class="banner1">
+    <!-- Nav -->
+    <nav class="nav">
+  <div class="nav_top">
+    <img src="../images/nav_Facebook.png" alt="" />
+    <img src="../images/nav_Instagram.png" alt="" />
+    <img src="../images/nav_Youtube.png" alt="" />
+    <div>
+      <img src="../images/nav_Close.png" alt="" />
+    </div>
+  </div>
+  <div class="nav_mid">
+    <ul>
+      <li>
+        <a href="#"><h3>關於我們</h3> </a>
+      </li>
+      <li>
+        <a href="#"><h3>服務介紹</h3> </a>
+        <ul>
+          <li><a href="#">矽谷電波</a></li>
+          <li><a href="#">皮秒雷射</a></li>
+          <li><a href="#">高壓氧艙</a></li>
+          <li><a href="#">雙眼皮手術</a></li>
+          <li><a href="#">拉皮手術</a></li>
+          <li><a href="#">線雕拉提</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#"><h3>專業團隊</h3> </a>
+        <ul>
+          <li><a href="#">傑瑞德·泰勒 院長</a></li>
+          <li><a href="#">傑瑞德 副院長</a></li>
+          <li><a href="#">泰勒 顧問</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#"><h3>醫師動態</h3> </a>
+      </li>
+      <li>
+        <a href="#"><h3>預約諮詢</h3> </a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav_last">
+    <img class="nav_logo" src="../images/logo_L.png" alt="" />
+    <div class="nav_location">
+      <img src="../images/nav_location.png" alt="" />
+      <h4>100台北市中正區重慶南路一段122號</h4>
+    </div>
+    <div class="nav_address">
+      <img src="../images/nav_Call.png" alt="" />
+      <h4>(02) 2345 6789</h4>
+    </div>
+    <div class="nav_serviceTime">
+      <img src="../images/nav_user.png" alt="" />
+      <h4>10:00-6:00 CST, M-F</h4>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="banner1 home">
       <div class="glass">
         <div class="container">
           <div class="special">
@@ -48,7 +102,7 @@
       </h4>
     </div>
     <div class="blue_line"></div>
-    <div class="banner3 carousel">
+    <div class="banner3 home_carousel">
       <h2 class="carousel-title">
         First choice for facial beauty <br />
         顎面第一選擇
@@ -62,29 +116,34 @@
         />
 
         <div class="carousel-description glass">
-          <button class="carousel-button carousel-button-left">
-            <i class="fas fa-chevron-left"></i>
-          </button>
+          <img
+            class="carousel-button carousel-button-left"
+            src="images/Arrow - Left Circle.png"
+            alt=""
+          />
 
-          <button class="carousel-button carousel-button-right">
-            <i class="fas fa-chevron-right"></i>
-          </button>
+          <img
+            class="carousel-button carousel-button-right"
+            src="images/Arrow - Rigjt Circle.png"
+            alt=""
+          />
           <h3 class="carousel-image-title">醫學中心開顱手術規格手術室</h3>
           <h4 class="carousel-image-description">
             人工植牙全口重建中心引進國外原裝進口，高階全頭顱CT電腦斷層掃描儀（Computed
             Tomography）360度呈現口內細微情況與變化，透過高階電腦斷層、口腔剖面圖，精準掌握骨質狀況，為3Ｄ人工植牙手術判斷的導航利器，讓微創植牙精準快速安全。
-            <a href="#" class="carousel-read-more">Read more -></a>
           </h4>
+          <a href="#" class="carousel-read-more">Read more -></a>
+          <!-- 點點 -->
+          <div class="carousel-dots">
+            <button class="carousel-dot active"></button>
+            <button class="carousel-dot"></button>
+            <button class="carousel-dot"></button>
+          </div>
         </div>
       </div>
-
-      <!-- 點點 -->
-      <div class="carousel-dots">
-        <button class="carousel-dot active"></button>
-        <button class="carousel-dot"></button>
-        <button class="carousel-dot"></button>
-      </div>
     </div>
+
+    <div class="banner4 home_service"></div>
     <!-- FOOTER -->
     <footer>
   <div class="footer_nav">

@@ -8,10 +8,14 @@
 
 // component
 @import "component/btn";
+@import "component/glass";
+
 // layout
 @import "layout/header";
 @import "layout/footer";
 @import "layout/slide";
+@import "layout/carousel";
+@import "layout/navigation";
 
 // animation
 @import "animation/animation";
@@ -27,11 +31,11 @@ body {
   color: $f_b;
 }
 
-a {
-  text-decoration: none;
-}
-
 h2,
 h3 {
+  color: $f_blue;
+}
+
+a {
   color: $f_blue;
 }

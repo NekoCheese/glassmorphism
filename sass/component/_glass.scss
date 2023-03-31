@@ -1,0 +1,22 @@
+// 預設樣式
+.glass {
+  @include glass(20px, 140deg, $g_1);
+}
+
+.home .glass {
+  @include glass(20px, 140deg, $g_4);
+}
+
+.nav {
+  @include glass(20px, 140deg, $g_b3);
+}
+
+// 輪播
+.carousel-description.glass {
+  @include glass(40px, 150deg, $g_5);
+}
+
+// FOOTER_關係品牌霧面
+.footer_partner .glass {
+  @include glass(20px, 140deg, $g_b2);
+}
